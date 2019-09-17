@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter your Email"
+            android:textColor="@color/common_google_signin_btn_text_dark"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark"
+            android:hint="Enter Password"
+            />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="login"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/common_google_signin_btn_text_dark"/>
+
+        <Button
+            android:id="@+id/btn_forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+           android:layout_gravity="end"
+            android:textColor="@color/common_google_signin_btn_text_dark"
+            android:background="@color/colorPrimary"
+            android:height="60dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="630dp"
+        android:text="Don't Have An Account?"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/common_google_signin_btn_text_dark"/>
+
+</RelativeLayout>

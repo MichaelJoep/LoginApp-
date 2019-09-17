@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/common_google_signin_btn_text_dark"
+            android:hint="Enter your Full Name"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/emailText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/common_google_signin_btn_text_dark"
+            android:layout_marginTop="30dp"
+            android:hint="Enter your Email"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/passwordText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/common_google_signin_btn_text_dark"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:hint="Enter Password"
+            />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="sign up"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="45dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/common_google_signin_btn_text_dark"/>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
