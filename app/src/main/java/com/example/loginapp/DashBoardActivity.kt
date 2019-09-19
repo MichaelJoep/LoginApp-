@@ -57,7 +57,7 @@ class DashBoardActivity:AppCompatActivity() {
                                             ).show()
                                             auth.signOut()
                                             startActivity(Intent(this, MainActivity::class.java))
-                                            finish()
+
                                         }
                                     }
                                   }else{
@@ -71,7 +71,7 @@ class DashBoardActivity:AppCompatActivity() {
 
                 }else{
                     startActivity(Intent(this, MainActivity::class.java))
-                    finish()
+
                 }
 
             }else{

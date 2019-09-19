@@ -24,7 +24,7 @@ class SignupActivity : AppCompatActivity() {
         }
     }
 
-    fun signUpUser() {
+    private fun signUpUser() {
         if (name.text.toString().isEmpty()) {
             name.error = "Please Enter your Name"
             name.requestFocus()
@@ -62,7 +62,7 @@ class SignupActivity : AppCompatActivity() {
                     // If sign in fails, display a message to the user.
 
                     Toast.makeText(
-                        baseContext, "Sign up fail, please try again later.",
+                        this, "Sign up fail, please try again later.",
                         Toast.LENGTH_LONG
                     ).show()
 
